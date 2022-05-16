@@ -27,4 +27,35 @@
         android:layout_height="wrap_content"
         android:hint="8자리 이상 입력"
         android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자유롭게 입력"
+        android:imeOptions="actionSearch"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용 약관에 동의합니다." />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(선택) 마케팅 약관에 동의합니다." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:textAllCaps="false"
+        android:text="Sign Up" />
+
 </LinearLayout>
